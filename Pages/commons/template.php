@@ -6,7 +6,7 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>Coucou</h1>
+ 
   <?= $content ?>
 </body>
 </html>

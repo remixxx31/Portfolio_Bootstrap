@@ -1,3 +1,10 @@
 body{
-  background:blue;
+  background-color:;
+  font-family: 'Fredoka One', cursive;
+}
+nav a:hover{
+  color:hsl(269, 45%, 65%)!important;
+}
+.perso_bgBlue{
+  background-color: rgb(40,54,69);
 }

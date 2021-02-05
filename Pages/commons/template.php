@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
   <title>Document</title>
 </head>
-<body>
+<body class="perso_linear_Bgblue">
   <?php require("menu.php"); ?>
   <?= $content ?>
 </body>

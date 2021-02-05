@@ -1,19 +1,20 @@
 <?php ob_start();?>
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+<div id="carouselExampleIndicators" class="carousel slide perso_linear_Bgblue" data-bs-ride="carousel">
   <ol class="carousel-indicators">
-    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
-    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="bg-dark" class="active"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="bg-dark"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="bg-dark"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="../sources/images/cours1.png" class="d-block w-75 h-75 mx-auto" alt="...">
+      <img src="../sources/images/cours1.png" class="d-block w-75 h-75 mx-auto img-thumbnail border border-dark" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="../sources/images/cours2.png" class="d-block w-75 h-75 mx-auto" alt="...">
+      <img src="../sources/images/cours3.png" class="d-block w-75 h-75 mx-auto img-thumbnail border border-dark" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="../sources/images/cours3.png" class="d-block w-75 h-75 mx-auto" alt="...">
+      <img src="../sources/images/catalogue.png" class="d-block w-75 h-75 mx-auto img-thumbnail border border-dark" alt="...">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">

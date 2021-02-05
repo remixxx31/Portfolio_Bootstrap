@@ -5,6 +5,9 @@ body{
 nav a:hover{
   color:hsl(269, 45%, 65%)!important;
 }
+nav a{
+  color:white !important;
+}
 .perso_bgBlue{
   background-color: rgb(40,54,69);
 }

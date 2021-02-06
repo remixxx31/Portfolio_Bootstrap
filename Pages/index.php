@@ -39,7 +39,7 @@
     </div>
 </div>
   <div class="container text-center" id="competences">
-      <h2 class="m-5 perso_colorBlueLight">Mes compétences</h2
+      <h2 class="m-5 perso_colorBlueLight">Mes compétences</h2>
         <div class="row">
             <div class="col-12 col-md-6 col-xl-4 my-4">
               <h3>HTML / CSS</h3>
@@ -89,7 +89,17 @@
                   </div>
               </div>  
   </div>
-
+  <div class="container text-center" id="portfolio">
+        <h2 class="m-5 perso_colorBlueLight">Mon Portfolio</h2>
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+            <div class="card-header bg-transparent border-success">Cours Javascript</div>
+            <div class="card-body text-success p-0">
+                <img src="../sources/images/cours1.png" class="d-block w-100"/>
+        </div>
+        <div class="card-footer bg-transparent border-success">
+        <button type="button" class="btn btn-primary">En savoir plus</button>
+        </div>
+  </div>
   <?php
     $content = ob_get_clean();
     require "commons/template.php";

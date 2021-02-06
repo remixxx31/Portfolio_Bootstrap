@@ -17,7 +17,7 @@
           <a class="nav-link" href="#competences">Compétences</a>
         </li>
         <li class="nav-item mx-2">
-          <a class="nav-link" href="#">Portfolio</a>
+          <a class="nav-link" href="#portfolio">Portfolio</a>
         </li>
         <li class="nav-item mx-2">
           <a class="nav-link" href="#">Témoignage</a>

@@ -33,8 +33,21 @@
       <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/ipIQK_pNGyo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </div>
+  <div class="container text-center" id="competences">
+      <h2 class="m-4 perso_colorBlueLight">Mes compétences</h2>
+        <div class="row text-center">
+            <div class="col-4 border border-dark">
+              HTML / CSS
+            </div>  
+            <div class="col-4 border border-dark">
+              PHP / POO
+            </div>  
+            <div class="col-4 border border-dark">
+              Javascript
+            </div>  
+        </div>
+  </div>
 
- <button class="btn btn-success">Valider</button>
   <?php
     $content = ob_get_clean();
     require "commons/template.php";

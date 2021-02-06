@@ -8,13 +8,16 @@
     </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="../sources/images/cours1.png" class="d-block w-75 h-75 mx-auto img-thumbnail border border-dark" alt="...">
+      <img src="../sources/images/cours1.png" 
+      class="d-block w-75 h-75 mx-auto img-thumbnail border border-dark" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="../sources/images/cours3.png" class="d-block w-75 h-75 mx-auto img-thumbnail border border-dark" alt="...">
+      <img src="../sources/images/cours3.png" 
+      class="d-block w-75 h-75 mx-auto img-thumbnail border border-dark" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="../sources/images/catalogue.png" class="d-block w-75 h-75 mx-auto img-thumbnail border border-dark" alt="...">
+      <img src="../sources/images/catalogue.png" 
+      class="d-block w-75 h-75 mx-auto img-thumbnail border border-dark" alt="...">
     </div>
   </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
@@ -27,25 +30,64 @@
     </a>
 </div>
 
-<div class="container border border-dark text-center" id="presentation">
+<div class="container text-center" id="presentation">
     <h2 class="m-4 perso_colorBlueLight">Rémi : Développeur web junior</h2>
     <div class="embed-responsive embed-responsive-16by9">
-      <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/ipIQK_pNGyo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class="embed-responsive-item" width="560" height="315" 
+      src="https://www.youtube.com/embed/ipIQK_pNGyo" frameborder="0" 
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </div>
   <div class="container text-center" id="competences">
-      <h2 class="m-4 perso_colorBlueLight">Mes compétences</h2>
-        <div class="row text-center">
-            <div class="col-12 col-sm-6 col-md-4 border border-dark">
-              HTML / CSS
-            </div>  
-            <div class="col-12 col-sm-6 col-md-4 border border-dark">
-              PHP / POO
-            </div>  
-            <div class="col-12 col-sm-6 col-md-4 border border-dark">
-              Javascript/ Node.JS
-            </div>  
-        </div>
+      <h2 class="m-5 perso_colorBlueLight">Mes compétences</h2
+        <div class="row">
+            <div class="col-12 col-md-6 col-xl-4 my-4">
+              <h3>HTML / CSS</h3>
+                <div class="progress">
+                    <div class="progress-bar bg-success" role="progressbar" 
+                    style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                </div>
+              </div>
+
+          <div class="col-12 col-md-6 col-xl-4 my-4">
+            <h3>PHP / POO</h3>
+            <div class="progress">
+              <div class="progress-bar bg-success" role="progressbar" 
+              style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+            </div>
+          </div>  
+
+        <div class="col-12 col-md-6 col-xl-4 my-4">
+            <h3>Javascript/ Node.JS</h3>
+              <div class="progress">
+                  <div class="progress-bar bg-success" role="progressbar" 
+                  style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                  </div>
+              </div>  
+
+        <div class="col-12 col-md-6 col-xl-4 my-4">
+            <h3>Analyse / Conception</h3>
+              <div class="progress">
+                  <div class="progress-bar bg-success" role="progressbar" 
+                  style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                  </div>
+              </div>  
+
+        <div class="col-12 col-md-6 col-xl-4 my-4">
+           <h3>SQL/ POO</h3>
+              <div class="progress">
+                  <div class="progress-bar bg-success" role="progressbar" 
+                  style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                  </div>
+              </div>  
+
+        <div class="col-12 col-md-6 col-xl-4 my-4">
+           <h3>Graphisme</h3>
+              <div class="progress">
+                  <div class="progress-bar bg-danger" role="progressbar" 
+                  style="width: 50%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">50%</div>
+                  </div>
+              </div>  
   </div>
 
   <?php

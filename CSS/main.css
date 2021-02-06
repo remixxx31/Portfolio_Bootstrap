@@ -17,3 +17,7 @@ nav a{
 .perso_colorBlueLight{
   color: #1490d7 !important;
 }
+
+html{
+  scroll-behavior: smooth important!;
+}

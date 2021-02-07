@@ -1,5 +1,5 @@
 <?php ob_start();?>
-
+<!-- Caroussel -->
 <div id="carouselExampleIndicators" class="carousel slide perso_linear_Bgblue" data-bs-ride="carousel">
     <ol class="carousel-indicators">
         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="bg-dark" class="active"></li>
@@ -40,6 +40,8 @@
 </div>
   <div class="container text-center" id="competences">
       <h2 class="m-5 perso_colorBlueLight">Mes compétences</h2>
+
+        <!-- progress-bar -->
         <div class="row">
             <div class="col-12 col-md-6 col-xl-4 my-4">
               <h3>HTML / CSS</h3>
@@ -89,17 +91,163 @@
                   </div>
               </div>  
   </div>
+  <!-- Card 1 -->
   <div class="container text-center" id="portfolio">
         <h2 class="m-5 perso_colorBlueLight">Mon Portfolio</h2>
-        <div class="card border-success mb-3" style="max-width: 18rem;">
-            <div class="card-header bg-transparent border-success">Cours Javascript</div>
-            <div class="card-body text-success p-0">
-                <img src="../sources/images/cours1.png" class="d-block w-100"/>
-        </div>
-        <div class="card-footer bg-transparent border-success">
-        <button type="button" class="btn btn-primary">En savoir plus</button>
-        </div>
+        
+        <div class="card-group">
+            <div class="card border-success mb-3">
+                <div class="card-header bg-transparent border-success">Cours Javascript</div>
+                <div class="card-body text-success p-0">
+                    <img src="../sources/images/cours1.png" class="d-block w-100"/>
+                </div>
+                 <div class="card-footer bg-transparent border-success">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cours1">En savoir plus</button>
+                  </div>
+    </div>
+<!-- card 2 -->
+            <div class="card border-success mb-3">
+                <div class="card-header bg-transparent border-success">Cours PHP</div>
+                <div class="card-body text-success p-0">
+                    <img src="../sources/images/cours1.png" class="d-block w-100"/>
+                </div>
+                 <div class="card-footer bg-transparent border-success">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cours3">En savoir plus</button>
+                  </div>
+            </div>
+<!-- card 3 -->
+            <div class="card border-success mb-3">
+                <div class="card-header bg-transparent border-success">Cas pratique PHP / MySQL</div>
+                <div class="card-body text-success p-0">
+                    <img src="../sources/images/catalogue.png" class="d-block w-100"/>
+                </div>
+                 <div class="card-footer bg-transparent border-success">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#catalogue">En savoir plus</button>
+                  </div>
+            </div>
+<!-- Modal 1 -->
+
+<div class="modal fade" id="cours1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cours Javascript</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../sources/images/cours1.png" class="d-block w-100" />
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, earum qui! Ab dolores non repellat cupiditate reprehenderit, 
+          corrupti iure tempore sint similique veniam eum laborum laudantium at, incidunt sunt autem!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+      </div>
+    </div>
   </div>
+</div>
+<!-- Modal 2 -->
+
+<div class="modal fade" id="cours3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cours PHP</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../sources/images/cours3.png" class="d-block w-100" />
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, earum qui! Ab dolores non repellat cupiditate reprehenderit, 
+          corrupti iure tempore sint similique veniam eum laborum laudantium at, incidunt sunt autem!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal 3 -->
+
+<div class="modal fade" id="catalogue" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cas pratique PHP / MySQL</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../sources/images/cours1.png" class="d-block w-100" />
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, earum qui! Ab dolores non repellat cupiditate reprehenderit, 
+          corrupti iure tempore sint similique veniam eum laborum laudantium at, incidunt sunt autem!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  
+<div class="container text-center border border-dark border-4" id="temoignage">
+      <h2 class="m-5 perso_colorBlueLight">Mes témoignages</h2>
+      <div class="row">
+<!--image1 -->
+      <div class="col-12 col-lg-4">
+          <img src="../sources/images/aigle.jpg" class="card-img-top perso_ImageRonde img-fluid m-auto" alt="aigle">
+            <h3 class="card-title">Client 1</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum velit,
+              eos nihil impedit cum commodi ipsum atque! Ipsa quia totam enim reprehenderit nobis 
+              commodi, necessitatibus repellendus voluptatibus, doloribus rerum cumque.</p>
+          </div>
+<!--image2 -->
+  <div class="col-12 col-lg-4">
+      <img src="../sources/images/loup.jpg" class="card-img-top perso_ImageRonde img-fluid m-auto" alt="loup">
+        <h3 class="card-title">Client 2</h3>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum velit,
+          eos nihil impedit cum commodi ipsum atque! Ipsa quia totam enim reprehenderit nobis 
+          commodi, necessitatibus repellendus voluptatibus, doloribus rerum cumque.</p>
+        </div>
+<!--Image3-->
+  <div class="col-12 col-lg-4">
+      <img src="../sources/images/chat.jpg" class="card-img-top perso_ImageRonde img-fluid m-auto" alt="chat">
+        <h3 class="card-title">Client 3</h3>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum velit,
+           eos nihil impedit cum commodi ipsum atque! Ipsa quia totam enim reprehenderit nobis 
+           commodi, necessitatibus repellendus voluptatibus, doloribus rerum cumque.</p>
+      </div>
+  </div>
+</div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   <?php
     $content = ob_get_clean();
     require "commons/template.php";

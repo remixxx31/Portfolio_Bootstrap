@@ -17,7 +17,11 @@ nav a{
 .perso_colorBlueLight{
   color: #1490d7 !important;
 }
-
+.perso_ImageRonde{
+  border-radius: 50% !important;
+  height: 140px;
+  width: 140px;
+}
 html{
   scroll-behavior: smooth important!;
 }

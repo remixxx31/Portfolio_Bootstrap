@@ -8,22 +8,22 @@
         <li class="nav-item mx-2">
           <a class="nav-link text-white" href="#">Accueil</a>
         </li>
-          <a class="nav-link" href="#presentation">Présentation</a>
+          <a class="nav-link" href="index.php#presentation">Présentation</a>
         </li>
         <li class="nav-item mx-2">
-          <a class="nav-link" href="#">CV</a>
+          <a class="nav-link" href="index.php#">CV</a>
         </li>
         <li class="nav-item mx-2">
-          <a class="nav-link" href="#competences">Compétences</a>
+          <a class="nav-link" href="index.php#competences">Compétences</a>
         </li>
         <li class="nav-item mx-2">
-          <a class="nav-link" href="#portfolio">Portfolio</a>
+          <a class="nav-link" href="index.php#portfolio">Portfolio</a>
         </li>
         <li class="nav-item mx-2">
-          <a class="nav-link" href="#temoignage">Témoignage</a>
+          <a class="nav-link" href="index.php#temoignage">Témoignage</a>
         </li>
         <li class="nav-item mx-2">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="contact.php">Contact</a>
         </li>
       </ul>
     </div>

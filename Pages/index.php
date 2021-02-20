@@ -126,7 +126,7 @@
                   </div>
             </div>
 <!-- Modal 1 -->
-
+  </div>
 <div class="modal fade" id="cours1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -187,67 +187,36 @@
 </div>
   
   
-<div class="container text-center border border-dark border-4" id="temoignage">
+<div class="container text-center" id="temoignage">
       <h2 class="m-5 perso_colorBlueLight">Mes témoignages</h2>
-      <div class="row">
+    <div class='row'>
 <!--image1 -->
       <div class="col-12 col-lg-4">
-          <img src="../sources/images/aigle.jpg" class="card-img-top perso_ImageRonde img-fluid m-auto" alt="aigle">
-            <h3 class="card-title">Client 1</h3>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum velit,
+          <img src="../sources/images/aigle.jpg" class="perso_ImageRonde img-fluid m-auto" alt="aigle">
+            <h3>Client 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum velit,
               eos nihil impedit cum commodi ipsum atque! Ipsa quia totam enim reprehenderit nobis 
               commodi, necessitatibus repellendus voluptatibus, doloribus rerum cumque.</p>
           </div>
 <!--image2 -->
   <div class="col-12 col-lg-4">
-      <img src="../sources/images/loup.jpg" class="card-img-top perso_ImageRonde img-fluid m-auto" alt="loup">
-        <h3 class="card-title">Client 2</h3>
-        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum velit,
+      <img src="../sources/images/loup.jpg" class="perso_ImageRonde img-fluid m-auto" alt="loup">
+        <h3>Client 2</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum velit,
           eos nihil impedit cum commodi ipsum atque! Ipsa quia totam enim reprehenderit nobis 
           commodi, necessitatibus repellendus voluptatibus, doloribus rerum cumque.</p>
         </div>
 <!--Image3-->
   <div class="col-12 col-lg-4">
-      <img src="../sources/images/chat.jpg" class="card-img-top perso_ImageRonde img-fluid m-auto" alt="chat">
-        <h3 class="card-title">Client 3</h3>
-          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum velit,
+      <img src="../sources/images/chat.jpg" class="perso_ImageRonde img-fluid m-auto" alt="chat">
+        <h3>Client 3</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum velit,
            eos nihil impedit cum commodi ipsum atque! Ipsa quia totam enim reprehenderit nobis 
            commodi, necessitatibus repellendus voluptatibus, doloribus rerum cumque.</p>
       </div>
   </div>
+  </div>
 </div>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <?php
     $content = ob_get_clean();
     require "commons/template.php";

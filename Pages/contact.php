@@ -1,26 +1,52 @@
 <?php ob_start();?>
   
-<div class="container text-center" id="presentation">
+<div class="container text-center">
     <h2 class="m-4 perso_colorBlueLight">Mes informations personelles</h2>
 
 
-<table class="table table-borderless">
-          <thead>
-              <tr>
-                  <td><img src="../Sources\images\tel.png" width="100px" /></td>
-                  <td><img src="../Sources\images\yt.png" width="100px" /></td>
-                  <td><img src="../Sources\images\fb.png" width="100px"/></td>
-              </tr>
-          </thead>
-          <tbody>
-                <tr>
-                    <td>06 70 42 68 75</td>
-                    <td><a href="https://www.youtube.com/watch?v=KNbD0Mlg_9c" target=_blank>Benjamin Code</a></td>
-                    <td><a href="https://fr-fr.facebook.com/h2prog/?ref=page_internal" target=_blank>H2PROG</a></td>
-                </tr>
-          </tbody>
-    </table>
+    <table class="table table-borderless">
+              <thead>
+                  <tr>
+                      <td><img src="../Sources\images\tel.png" width="100px" /></td>
+                      <td><img src="../Sources\images\yt.png" width="100px" /></td>
+                      <td><img src="../Sources\images\fb.png" width="100px"/></td>
+                  </tr>
+              </thead>
+              <tbody>
+                    <tr>
+                        <td>06 70 42 68 75</td>
+                        <td><a href="https://www.youtube.com/watch?v=KNbD0Mlg_9c" target=_blank>Benjamin Code</a></td>
+                        <td><a href="https://fr-fr.facebook.com/h2prog/?ref=page_internal" target=_blank>H2PROG</a></td>
+                    </tr>
+              </tbody>
+     </table>   
 </div>
+
+  <div class="container text-center">
+          <h2 class="m-4 perso_colorBlueLight">Formulaire de contact</h2>
+          <form method="POST" action="">
+              <div class="form-group">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" name="mail" placeholder="Entrez votre adresse ici">
+              </div>
+              
+              <div class="form-group">
+                  <label for="objet" class="form-label">Objet</label>
+                  <select class="form-control" id="objet" name="objet">
+                        <option value="question">Question</option>
+                        <option value="remarque">Remarque</option>
+                        <option value="Autre">Autre</option>
+                  </select>
+                      
+                      <div class="mb-3">
+                          <label for="message">Message: </label>
+                          <textarea class="form-control" id="message" rows="3" name="message"></textarea>
+                      </div>
+
+              </div>
+                  <button type="submit" class="btn btn-primary">Valider </button>
+        </form>
+  </div>
   <?php
     $content = ob_get_clean();
     require "commons/template.php";

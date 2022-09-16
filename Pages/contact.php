@@ -8,15 +8,14 @@
               <thead>
                   <tr>
                       <td><img src="../Sources\images\tel.png" width="100px" /></td>
-                      <td><img src="../Sources\images\yt.png" width="100px" /></td>
-                      <td><img src="../Sources\images\fb.png" width="100px"/></td>
+                      <td><i class="fa-brands fa-linkedin fa-5x" width="50px"></i>
+                        <!-- <img src="../Sources\images\yt.png" width="100px" /></td> -->
                   </tr>
               </thead>
               <tbody>
                     <tr>
                         <td>06 70 42 68 75</td>
-                        <td><a href="https://www.youtube.com/watch?v=KNbD0Mlg_9c" target=_blank>Benjamin Code</a></td>
-                        <td><a href="https://fr-fr.facebook.com/h2prog/?ref=page_internal" target=_blank>H2PROG</a></td>
+                        <td><a href="https://www.linkedin.com/in/remi-perray2020/" target=_blank>Remi PERRAY</a></td>
                     </tr>
               </tbody>
      </table>   
